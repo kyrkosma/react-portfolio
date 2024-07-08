@@ -6,7 +6,7 @@
 
 @layer base {
     body {
-        @apply font-[Raleway]
+        @apply font-[Raleway];
     }
 
     li {
@@ -14,4 +14,13 @@
         @apply cursor-pointer;
     }
 
+    input {
+        @apply text-black;
+        @apply font-semibold
+    }
+
+    textarea {
+        @apply text-black;
+        @apply font-semibold
+    }
 }

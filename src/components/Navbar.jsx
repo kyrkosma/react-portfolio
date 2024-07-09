@@ -4,6 +4,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {Link} from 'react-scroll';
+import MyCV from '../assets/myCV.pdf'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -56,22 +57,22 @@ const Navbar = () => {
             <div className='hidden lg:flex fixed flex-col top-[40%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]'>
-                        <a className='flex justify-between items-center w-full' href='/'>
+                        <a className='flex justify-between items-center w-full' href='https://www.linkedin.com/in/kyrkos-marios/' target='blank'>
                             LinkedIn <FaLinkedin size={30}/>
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2B3137]'>
-                        <a className='flex justify-between items-center w-full' href='/'>
+                        <a className='flex justify-between items-center w-full' href='https://github.com/kyrkosma'>
                             GitHub <FaGithub size={30}/>
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex ml-[-100px] hover:ml-[-10px] duration-300 bg-emerald-600'>
-                        <a className='flex justify-between items-center w-full' href='/'>
+                        <a className='flex justify-between items-center w-full' href='mailto:kyrkosma@gmail.com'>
                             Email <HiOutlineMail size={30}/>
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex ml-[-100px] hover:ml-[-10px] duration-300 bg-cyan-700'>
-                        <a className='flex justify-between items-center w-full' href='/'>
+                        <a className='flex justify-between items-center w-full' download={MyCV} href={MyCV}>
                             Resume <BsFillPersonLinesFill size={30}/>
                         </a>
                     </li>

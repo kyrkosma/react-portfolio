@@ -19,37 +19,37 @@ const Experience = () => {
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-7 text-center py-8'>
                     <div className='shadow-md shadow-emerald-500 hover:scale-110 duration-500'>
-                        <img className='h-20 mt-2 mx-auto' src={Java} alt='java-logo'/>
-                        <p className='my-4'>Java</p>
+                        <img className='h-16 sm:h-20 mt-2 mx-auto' src={Java} alt='java-logo'/>
+                        <p className='my-2 sm:my-4'>Java</p>
                     </div>
                     <div className='shadow-md shadow-emerald-500 hover:scale-110 duration-500'>
-                        <img className='h-20 mt-2 mx-auto' src={SpringBoot} alt='springboot-logo'/>
-                        <p className='my-4'>Spring Boot</p>
+                        <img className='h-16 sm:h-20 mt-2 mx-auto' src={SpringBoot} alt='springboot-logo'/>
+                        <p className='my-2 sm:my-4'>Spring Boot</p>
                     </div>
                     <div className='shadow-md shadow-emerald-500 hover:scale-110 duration-500'>
-                        <img className='h-20 mt-2 mx-auto' src={Git} alt='git-logo'/>
-                        <p className='my-4'>Git</p>
+                        <img className='h-16 sm:h-20 mt-2 mx-auto' src={Git} alt='git-logo'/>
+                        <p className='my-2 sm:my-4'>Git</p>
                     </div>
                     <div className='shadow-md shadow-emerald-500 hover:scale-110 duration-500'>
-                        <img className='h-20 mt-2 mx-auto' src={Maven} alt='springboot-logo'/>
-                        <p className='my-4'>Maven</p>
+                        <img className='h-16 sm:h-20 mt-2 mx-auto' src={Maven} alt='springboot-logo'/>
+                        <p className='my-2 sm:my-4'>Maven</p>
                     </div>
 
                     <div className='shadow-md shadow-emerald-500 hover:scale-110 duration-500'>
-                        <img className='h-20 mt-2 mx-auto' src={Html} alt='java-logo'/>
-                        <p className='my-4'>HTML</p>
+                        <img className='h-16 sm:h-20 mt-2 mx-auto' src={Html} alt='java-logo'/>
+                        <p className='my-2 sm:my-4'>HTML</p>
                     </div>
                     <div className='shadow-md shadow-emerald-500 hover:scale-110 duration-500'>
-                        <img className='h-20 mt-2 mx-auto' src={Css} alt='springboot-logo'/>
-                        <p className='my-4'>CSS</p>
+                        <img className='h-16 sm:h-20 mt-2 mx-auto' src={Css} alt='springboot-logo'/>
+                        <p className='my-2 sm:my-4'>CSS</p>
                     </div>
                     <div className='shadow-md shadow-emerald-500 hover:scale-110 duration-500'>
-                        <img className='h-20 mt-2 mx-auto' src={Javascript} alt='git-logo'/>
-                        <p className='my-4'>Javascript</p>
+                        <img className='h-16 sm:h-20 mt-2 mx-auto' src={Javascript} alt='git-logo'/>
+                        <p className='my-2 sm:my-4'>Javascript</p>
                     </div>
                     <div className='shadow-md shadow-emerald-500 hover:scale-110 duration-500'>
-                        <img className='h-20 mt-2 mx-auto' src={ReactL} alt='springboot-logo'/>
-                        <p className='my-4'>React</p>
+                        <img className='h-16 sm:h-20 mt-2 mx-auto' src={ReactL} alt='springboot-logo'/>
+                        <p className='my-2 sm:my-4'>React</p>
                     </div>
 
                 </div>

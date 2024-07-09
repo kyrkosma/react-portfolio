@@ -62,7 +62,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2B3137]'>
-                        <a className='flex justify-between items-center w-full' href='https://github.com/kyrkosma'>
+                        <a className='flex justify-between items-center w-full' href='https://github.com/kyrkosma' target='blank'>
                             GitHub <FaGithub size={30}/>
                         </a>
                     </li>
